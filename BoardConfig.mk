@@ -46,11 +46,9 @@ BOARD_CUSTOM_BOOTIMG_MK := device/lenovo/a369i/tools/bootimg.mk
 MTK_PLATFORM := mt6572
 MTK_PROJECT := a369i
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x00000100 --second_offset 0x00f00000 --mtk 1
-
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/kernel
 BOARD_KERNEL_BASE := 0x80100000
 BOARD_KERNEL_PAGESIZE := 2048
-
 TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/rootdir/recovery.fstab
 
 # Deodex
